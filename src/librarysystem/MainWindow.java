@@ -63,6 +63,7 @@ public class MainWindow extends JFrame {
 
 	private MainWindow() {
 		getContentPane().setBackground(new Color(238, 238, 238));
+		//getContentPane().setBackground(new Color(100, 50, 90));
 		getContentPane().setLayout(new BorderLayout(0, 0));
 
 		JSplitPane splitPane = new JSplitPane();
