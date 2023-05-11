@@ -56,6 +56,8 @@ public class LoginForm extends JFrame {
 		password = new PlaceholderPasswordField("Enter password...");
 
 		Color mainColor = new Color(221, 255, 187);
+		//Color mainColor = new Color(200, 255, 180);
+
 		Color secondColor = new Color(199, 233, 176);
 		Color textColor = Color.black;
 
@@ -64,7 +66,8 @@ public class LoginForm extends JFrame {
 
 		jPanel1.setBackground(mainColor);
 
-		jLabel1.setIcon(new ImageIcon(getClass().getResource("/librarysystem/miuLogo.png")));
+		//jLabel1.setIcon(new ImageIcon(getClass().getResource("/librarysystem/miuLogo.png")));
+		jLabel1.setIcon(new ImageIcon(getClass().getResource("/librarysystem/everestlibrary.png")));
 
 		GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
 		jPanel1.setLayout(jPanel1Layout);
