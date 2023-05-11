@@ -17,10 +17,6 @@ import javax.swing.DefaultComboBoxModel;
 import java.util.List;
 
 
-
-
-
-
 public class OverdueCheckoutFrame extends JPanel {
 	public static final OverdueCheckoutFrame INSTANCE = new OverdueCheckoutFrame();
 	private JTable tableContent;
